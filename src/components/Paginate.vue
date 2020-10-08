@@ -1,5 +1,5 @@
 <template>
-  <nav role="navigation" aria-label="Navegação de páginas">
+  <nav role="navigation" :aria-label="accessibilityTitle">
     <ul :class="containerClass">
       <li v-if="firstLastButton" :class="[pageClass, firstPageSelected() ? disabledClass : '']">
         <a @click="selectFirstPage()" aria-label="Ir para a primeira página" :aria-disabled="firstPageSelected()" @keyup.enter="selectFirstPage()" :class="pageLinkClass" :tabindex="firstPageSelected() ? -1 : 0" v-html="firstButtonText"></a>
@@ -113,6 +113,10 @@ export default {
     hidePrevNext: {
       type: Boolean,
       default: false
+    },
+    accessibilityTitle: {
+      type: String,
+      default: 'Navegação de páginas'
     }
   },
   beforeUpdate() {

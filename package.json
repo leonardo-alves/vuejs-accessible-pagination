@@ -1,6 +1,6 @@
 {
   "name": "vuejs-accessible-pagination",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple pagination acessible component for Vue.js",
   "main": "dist/index.js",
   "scripts": {

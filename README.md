@@ -200,6 +200,8 @@ HTML
 | `first-button-text` | `String` | Text for first button. (Not visible when `first-last-button` is false. You can use HTML here.) **default: 'First'** |
 | `last-button-text` | `String` | Text for last button. (Not visible when `first-last-button` is false. You can use HTML here.) **default: 'Last'** |
 | `hide-prev-next` | `Boolean` | Hide prev/next button when there is no previous or next page. **default: false** |
+| `accessibility-title` | `String` | title to be read by accessibility tools `aria-label`. **default: 'Navegação de páginas'** |
+
 
 ## Customize inner HTML (experimental)
 You can customize the inner HTML of the previous button, next button, and break view indicator, with the `slot` tag.
