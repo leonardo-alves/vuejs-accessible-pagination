@@ -1,7 +1,7 @@
 {
-  "name": "vuejs-paginate",
-  "version": "2.1.0",
-  "description": "A simple pagination component for Vue.js",
+  "name": "vuejs-accessible-pagination",
+  "version": "1.0.0",
+  "description": "A simple pagination acessible component for Vue.js",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf ./dist && webpack --config ./webpack.config.js",
