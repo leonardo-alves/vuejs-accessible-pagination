@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lokyoung/vuejs-paginate.git"
+    "url": "git+https://github.com/leonardo-alves/vuejs-accessible-pagination"
   },
   "keywords": [
     "vue",
@@ -20,7 +20,7 @@
   "author": "Cain Liu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lokyoung/vuejs-paginate/issues"
+    "url": "https://github.com/leonardo-alves/vuejs-accessible-pagination/issues"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
