@@ -3,13 +3,13 @@
 
 [![NPM](https://nodei.co/npm/vuejs-paginate.png)](https://nodei.co/npm/vuejs-paginate/)
 
+This is a copy of [vuejs-paginate](https://www.npmjs.com/package/vuejs-paginate) with the purpose of turning into an accessible component
+
 A Vue.js(v2.x+) component to make pagination. Inspired by [react-paginate](https://github.com/AdeleD/react-paginate).
 
 Easy to use by providing simple api. And you can customize the style of this component by css.
 
 <img src="https://raw.githubusercontent.com/lokyoung/vuejs-paginate/master/img/pagination-show.gif" width="550" />
-
-[Online demo](https://jsfiddle.net/lokyoung/u3u3nzns/)
 
 ## Installation
 
@@ -196,7 +196,6 @@ HTML
 | `break-view-link-class` | `String` | CSS class name for tag `a` of `break view` element. |
 | `active-class` | `String` | CSS class name for active page element. **default: active** |
 | `disabled-class` | `String` | CSS class name for disabled page element. **default: disabled** |
-| `no-li-surround` | `Boolean` | Support no `li` tag surround `a` tag. **default: false** |
 | `first-last-button` | `Boolean` | Support buttons to turn to the first and last page. **default: false** |
 | `first-button-text` | `String` | Text for first button. (Not visible when `first-last-button` is false. You can use HTML here.) **default: 'First'** |
 | `last-button-text` | `String` | Text for last button. (Not visible when `first-last-button` is false. You can use HTML here.) **default: 'Last'** |
